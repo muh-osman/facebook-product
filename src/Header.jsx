@@ -1,5 +1,5 @@
 // SCSS
-import style from "./styles.module.scss";
+import style from "./Header.module.scss";
 // Icons
 import {
   FaSquareFacebook,

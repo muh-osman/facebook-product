@@ -10,3 +10,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+.img-container {
+  /* display: inline-block; */
+  position: relative;
+}
+
+.img-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: inset 0px -137px 85px -7px rgba(0,0,0,0.75);
+}

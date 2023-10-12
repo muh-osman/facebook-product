@@ -1,11 +1,17 @@
 .wahatsapp_icon {
   position: absolute;
+  z-index: 999;
   bottom: 16px;
   right: 16px;
+  transition: .2s;
 
   img {
     width: 65px;
     filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
+  }
+
+  &:hover {
+    scale: 1.05;
   }
 }
 
@@ -40,6 +46,7 @@ header {
         align-items: center;
         justify-content: center;
         color: #404553;
+        color: #000;
         font-size: 22px;
 
         &:hover {
@@ -63,5 +70,30 @@ header {
 @media (max-width: 575.98px) {
   .free_delivery_box {
     justify-content: flex-start !important;
+  }
+}
+
+
+// Carousel
+.carousel {
+  width:900px;
+  height:500px;
+  margin: auto;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  max-height: 30px; /* change this to whatever you want */
+  width: auto;
+}
+
+@media (max-width: 900px) {
+  .carousel {
+    width:auto;
+    height:auto;
   }
 }
