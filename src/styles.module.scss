@@ -1,0 +1,67 @@
+.wahatsapp_icon {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+
+  img {
+    width: 65px;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
+  }
+}
+
+// Header
+header {
+  .free_delivery_box {
+    background-color: #feee00;
+    // height: 40px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    p {
+      color: #404553;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      position: absolute;
+      left: 16px;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #404553;
+        font-size: 22px;
+
+        &:hover {
+          color: #1974ec;
+        }
+      }
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .free_delivery_box {
+    justify-content: flex-start !important;
+  }
+}
