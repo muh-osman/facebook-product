@@ -1,5 +1,7 @@
 // SCSS
 import style from "./FormAndCounter.module.scss"
+// 
+import FormInput from "./FormInput"
 
 export default function FormAndCounter() {
   return (
@@ -10,7 +12,7 @@ export default function FormAndCounter() {
         </div>
 
         <div className={style.form_box}>
-
+            <FormInput/>
         </div>
         
     </div>
