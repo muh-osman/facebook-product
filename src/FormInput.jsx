@@ -25,9 +25,9 @@ export default function FormInput() {
       e.stopPropagation();
       setValidated(true);
     } else {
-      console.log(formData)
+      // console.log(formData)
       fetch(
-        "https://script.google.com/macros/s/AKfycbwFafeIQmVnnDoh1o1MZ2MRA8g1yl3LcN8lh2sHbr1mBi1FMK7u7rXxhI48KNQaU8Rs/exec",
+        "https://script.google.com/macros/s/AKfycbxYZzy-4vLImnYu9waqVDfFyXXQkTeqIfIyiKAiVjxg6VHwQigKNjtF5nzQI632MMsV/exec",
         {
           method: "POST",
           body: formData,
@@ -77,7 +77,7 @@ export default function FormInput() {
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
                 type="text"
-                name="email"
+                name="phone"
                 required
                 autoComplete="off"
               />
@@ -88,7 +88,7 @@ export default function FormInput() {
             <InputGroup className="mb-3">
               <Form.Control
                 as="textarea"
-                name="textarea"
+                name="address"
                 aria-label="textarea"
                 placeholder="ادخل عنوانك"
                 required
@@ -97,6 +97,7 @@ export default function FormInput() {
 
             {/* Button */}
             <Button
+              style={{backgroundColor: "rgb(43, 76, 215)"}}
               onClick={(e) => {
                 submitHandler(e);
               }}
@@ -109,9 +110,8 @@ export default function FormInput() {
           </Form>
 
           <div className="flip-card-back">
-            <h1>Thank You!</h1>
-            <h3>Your submission has been sent.</h3>
-            <a href="https://docs.google.com/spreadsheets/d/1Zb017NbM6-fKMuNOz1BU01O0dSP7lV7edyHLIhe-S7I/edit?usp=sharing">form data</a>
+            <h1>شكرا لك</h1>
+            <h3>سيتم التواصل معك لتأكيد الطلب</h3>
           </div>
         </div>
       </div>

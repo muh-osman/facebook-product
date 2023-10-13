@@ -1,3 +1,5 @@
+/* Form */
+
 form {
   border-radius: 9px;
   padding: 16px;
@@ -69,8 +71,9 @@ form {
   content: "";
   box-sizing: border-box;
   position: absolute;
+  z-index: 88;
   top: 50%;
-  left: 350px;
+  left: -287px;
   width: 30px;
   height: 30px;
   margin-top: -15px;
@@ -85,4 +88,10 @@ form {
   background-color: #6c757d !important;
   border-color: #6c757d !important;
   cursor: not-allowed !important;
+}
+
+@media (max-width: 575.98px) {
+  .flip-card {
+    width: 350px !important;
+  }
 }
