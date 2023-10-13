@@ -1,0 +1,30 @@
+.main {
+    margin-top: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.Description {
+    width: 40%;
+    height: 100%;
+}
+
+.gallery {
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .Description, .gallery {
+        width: 100%;
+    }
+
+    .Description {
+        order: 1;
+        margin-top: 32px;
+    }
+  }

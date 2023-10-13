@@ -1,43 +1,32 @@
-// import {Cloudinary} from "@cloudinary/url-gen";
+// React
+import { useState } from "react"
+// SCSS
+import style from "./ProductGallery.module.scss"
+// Images
+import gallery1 from "./assets/images/gallery1.jpg"
+import gallery2 from "./assets/images/gallery2.jpg"
+import gallery3 from "./assets/images/gallery3.jpg"
+import gallery4 from "./assets/images/gallery4.jpeg"
+import gallery5 from "./assets/images/gallery5.jpg"
 
-// const App = () => {
-//   const cld = new Cloudinary({cloud: {cloudName: 'drd0m79k8'}});
-// };
+export default function ProductGallery() {
+
+  const [imageScr, setImageScr] = useState(gallery5)
 
 
-
-// import "./styles.css";
-import { GalleryWidget } from "./GalleryWidget";
-
-const cloudName = "drd0m79k8"; 
-
-
-
-const config = {
-  cloudName: cloudName,
-  mediaAssets: [
-    { tag: "electric_car_product_gallery_demo" }, // by default mediaType: "image"
-    // { tag: "electric_car_product_gallery_demo", mediaType: "video" },
-    // { tag: "electric_car_360_product_gallery_demo", mediaType: "spin" }
-  ]
-  // displayProps: { mode: "expanded", columns: 2 }, // multi column display
-  // aspectRatio: "4:3", // if most assets are in landscape orientation
-  // imageBreakpoint: 200,  // responsive resize images to closest step in 200px increments
-  // carouselStyle: "indicators", // displays thumbnails by default
-  // indicatorProps: { color: "red" },   // only relevant if CarouselStyle is set to indicators
-  // carouselLocation: "right",  // "left" by default
-  // borderColor: "red",  // color is transparent by default
-  // borderWidth: 5, // border width is 0 by default
-  // transition: "fade",  // "slide" by default
-  // zoom: false,    // deactivate the zoom feature
-};
-
-export default function App() {
   return (
-    <div className="App">
-      <GalleryWidget config={config} />
+    <div className={style.gallery_container}>
+
+      <div className={style.big_image}><img src={imageScr} alt="gallery" /></div>
+
+      <div className={style.small_images_container}>
+        <div onClick={()=> {setImageScr(gallery5)}} className={style.small_image}><img src={gallery5} alt="product image" /></div>
+        <div onClick={()=> {setImageScr(gallery1)}} className={style.small_image}><img src={gallery1} alt="product image" /></div>
+        <div onClick={()=> {setImageScr(gallery2)}} className={style.small_image}><img src={gallery2} alt="product image" /></div>
+        <div onClick={()=> {setImageScr(gallery3)}} className={style.small_image}><img src={gallery3} alt="product image" /></div>
+        <div onClick={()=> {setImageScr(gallery4)}} className={style.small_image}><img src={gallery4} alt="product image" /></div>
+      </div>
+
     </div>
-  );
+  )
 }
-
-

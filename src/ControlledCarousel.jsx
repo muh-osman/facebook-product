@@ -24,7 +24,7 @@ function ControlledCarousel() {
           <img className={style.carousel_img} src={Carouse2} alt="Carousel" text="First slide" />
         </div>
         <Carousel.Caption>
-          <h1>عرض حصري وفر 50% عند طلبك خدماتنا لأول مرة.</h1>
+          <h1>حجم صغير وبقوة مضاعفة.</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,7 +32,7 @@ function ControlledCarousel() {
           <img className={style.carousel_img} src={Carouse1} alt="Carousel" text="Second slide" />
         </div>
         <Carousel.Caption>
-        <h1>نستخدم أساليب مستدامة. طاقة ومياه وبلاستيك أقل.</h1>
+        <h1>جودة عالية وكفالة لمدة ثلاث سنوات.</h1>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,7 +40,7 @@ function ControlledCarousel() {
           <img className={style.carousel_img} src={Carouse3} alt="Carousel" text="Third slide" />
         </div>
         <Carousel.Caption>
-        <h1>لا نستخدم مواد كيميائية ضارة.</h1>
+        <h1>صديقة للبيئة استهلاك منخفض للطاقة والمياه.</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

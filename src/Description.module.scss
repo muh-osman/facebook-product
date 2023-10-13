@@ -1,0 +1,70 @@
+.description_container {
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  // gap: 12px;
+  justify-content: space-between;
+  //   color: rgb(64, 69, 83);
+
+  h1 {
+    margin-bottom: 45px;
+    color: #404553;
+  }
+
+  h4 {
+    color: #7e859b;
+    margin-bottom: 16px;
+  }
+
+  .rate {
+
+    span {
+      color: rgb(255, 215, 0);
+    }
+  }
+
+  .watanty {
+  }
+
+  .last_price {
+    span {
+      text-decoration: line-through;
+    }
+  }
+
+  .current_price {
+    span {
+      color: #404553;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+
+  a {
+    margin-top: 22px;
+    display: block;
+    width: 100;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(43, 76, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 45px;
+    border-radius: 9px;
+
+    &:hover {
+      background-color: rgb(21, 63, 233);
+    }
+  }
+}
+
+
+// @media (max-width: 575px) {
+//     .description_container {
+//         margin-top: 32px;
+//     }
+//   }
