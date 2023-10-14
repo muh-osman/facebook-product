@@ -1,5 +1,6 @@
 .how_works_container {
-  margin-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 64px;
   padding: 16px;
   text-align: center;
 
@@ -49,12 +50,12 @@
   }
 
   .box {
-    border: 1px solid #000;
+    border: 1px solid #949090;
     border-radius: 9px;
     border-bottom-right-radius: 0;
     transition: 0.2s;
     box-shadow: -10px 10px 5px 0px rgba(255, 215, 0, 0.75);
-
+    
     &:hover {
       scale: 1.05;
     }

@@ -69,6 +69,15 @@ export default function FormInput() {
               />
             </Form.Group>
 
+            {/* Hiden input (product) */}
+            <Form.Group className="mb-3" controlId="formBasicName">
+              <Form.Control
+                type="hidden"
+                value="غساله 5 كيلو"
+                name="product"
+              />
+            </Form.Group>
+
             {/* Email */}
             <Form.Label>رقم الهاتف</Form.Label>
             <InputGroup className="mb-3">

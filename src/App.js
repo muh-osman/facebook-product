@@ -6,6 +6,7 @@ import Footer from "./Footer.jsx";
 import FormAndCounter from "./FormAndCounter.jsx";
 import Video from "./Video.jsx";
 import HowWorks from "./HowWorks.jsx";
+import Features from "./Features.jsx";
 
 function App() {
   return (
@@ -13,10 +14,11 @@ function App() {
       <Header />
       <ControlledCarousel />
       <Main />
+      <Features />
       <FormAndCounter />
+      <PaymentMethod />
       <HowWorks />
       <Video />
-      <PaymentMethod />
       <Footer />
     </>
   );

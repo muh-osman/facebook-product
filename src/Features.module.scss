@@ -1,0 +1,34 @@
+.features_container {
+    margin-top: 32px;
+    padding: 16px;
+    width: 100%;
+
+    .table_and_feature_box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .description {
+         width: 50%;
+
+
+         li {
+            padding: 2px;
+         }
+    }
+
+
+    .table {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .table_and_feature_box {
+        flex-direction: column;
+    }
+
+    .description, .table {
+        width: 100% !important;
+    }
+  }
