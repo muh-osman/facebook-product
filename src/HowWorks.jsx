@@ -18,7 +18,7 @@ export default function HowWorks() {
                 <div className={style.box}>
                         <FaHeart className={style.icon}/>
                         <h2>تقديم الطلب</h2>
-                        <p>قم بادخال اسمك وعنوانك ورقم الهاتف واختر وسيلة الدفع التي تناسبك</p>
+                        <p>قم بادخال اسمك وعنوانك ورقم هاتفك ثم اختر وسيلة الدفع التي تناسبك</p>
                 </div>
 
                 <div className={style.box}>

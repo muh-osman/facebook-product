@@ -2,7 +2,7 @@
   padding: 16px;
 
   h1 {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     font-weight: 500;
   }
 
@@ -16,12 +16,20 @@
     border-radius: 9px;
 
     img {
-        width: 150px;
-        transition: .2s;
+      width: 150px;
+      transition: 0.2s;
 
-        &:hover {
-            scale: 1.1;
-        }
+      &:hover {
+        scale: 1.1;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .payment_method_container {
+    h1 {
+      text-align: center;
     }
   }
 }

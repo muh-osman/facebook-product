@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa6";
 export default function Description() {
   return (
     <div className={style.description_container}>
-      <h1>غسالة ملابس بتحميل علوي سعة 5 كجم</h1>
+      <h1>غسالة ملابس بتحميل علوي سعة 5 كجم 2 في 1</h1>
 
       <h4 className={style.watanty}>اللون: ابيض</h4>
 

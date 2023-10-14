@@ -43,7 +43,7 @@ export default function Counter() {
         <p style={{marginBottom: "28px", fontSize: "18px"}}>حسم <span>50%</span> عند طلب قطعتين.</p>
 
         <div>
-          <h1 style={{color: "#7e859b", fontSize: "35px", fontWeight: "600", marginBottom: "28px"}}><span style={{color: "#000"}}>999 LYD</span> بدلا من <span style={{textDecoration: "line-through"}}>1499 LYD</span></h1>
+          <h1 style={{color: "#7e859b", fontSize: "35px", fontWeight: "600", marginBottom: "28px"}}><span style={{color: "#000"}}>999 LYD</span> بدلا من <span style={{textDecoration: "line-through"}}>1499</span></h1>
         </div>
 
       <div className="time">

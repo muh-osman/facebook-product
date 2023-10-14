@@ -23,8 +23,8 @@
     }
   }
 
-  .watanty {
-  }
+  // .watanty {
+  // }
 
   .last_price {
     span {
@@ -45,18 +45,21 @@
     div {
       position: absolute;
       left: -80px;
-      top: 6px;
-      background-color: rgb(223, 241, 217);;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgb(223, 241, 217);
       color: rgb(55, 174, 2);
       padding: 3px;
       border-radius: 3px;
       font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
   a[href="#FormAndCounter"] {
     margin-top: 22px;
-    display: block;
     width: 100;
     border: none;
     font-weight: 700;
