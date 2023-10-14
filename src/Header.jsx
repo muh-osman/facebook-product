@@ -13,7 +13,7 @@ import whatsapp from "./assets/images/whatsapp-icon.png";
 export default function Header() {
   return (
     <>
-      <a className={style.wahatsapp_icon} href="https://www.whatsapp.com">
+      <a className={style.wahatsapp_icon} href="https://wa.me/+218928908901">
         <img src={whatsapp} alt="whatsapp icon" />
       </a>
       <header>

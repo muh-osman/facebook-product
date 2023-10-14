@@ -2,7 +2,7 @@ import style from "./Features.module.scss"
 
 export default function Features() {
   return (
-    <div className={style.features_container}>
+    <div className={style.features_container} id="features">
 
         <div>
             <h1>نظرة عامة</h1>

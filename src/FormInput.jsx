@@ -78,7 +78,7 @@ export default function FormInput() {
               />
             </Form.Group>
 
-            {/* Email */}
+            {/* Number */}
             <Form.Label>رقم الهاتف</Form.Label>
             <InputGroup className="mb-3">
               <Form.Control
@@ -89,7 +89,8 @@ export default function FormInput() {
                 name="phone"
                 required
                 autoComplete="off"
-              />
+                />
+                <InputGroup.Text>218+</InputGroup.Text>
             </InputGroup>
 
             {/* Your message */}

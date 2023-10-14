@@ -33,14 +33,28 @@
   }
 
   .current_price {
+    position: relative;
+    width: fit-content !important;
+
     span {
       color: #404553;
       font-weight: 700;
       font-size: 32px;
     }
+
+    div {
+      position: absolute;
+      left: -80px;
+      top: 6px;
+      background-color: rgb(223, 241, 217);;
+      color: rgb(55, 174, 2);
+      padding: 3px;
+      border-radius: 3px;
+      font-size: 16px;
+    }
   }
 
-  a {
+  a[href="#FormAndCounter"] {
     margin-top: 22px;
     display: block;
     width: 100;

@@ -16,8 +16,9 @@ export default function Description() {
 
 
       <h4 className={style.last_price}>السعر السابق: <span>1499 LYD</span></h4>
-      <h4 className={style.current_price}>السعر الحالي: <span>999 LYD</span></h4>
+      <h4 className={style.current_price}>السعر الحالي: <span>999 LYD</span><div>خصم 50%</div></h4>
       <h4 className={style.rate}>تقييم المنتج: <span><FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/></span> </h4>
+      <a href="#features">المواصفات كاملة</a>
 
       <a href="#FormAndCounter">أطلب الان</a>
 
